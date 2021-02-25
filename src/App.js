@@ -5,22 +5,29 @@ import './App.css';
 import Haeder from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
+import Login from './Login';
 
 function App() {
   return (
-     <div className="app">
       <Router>
-       <Haeder />
+       <div className="app">
+       
         <Switch>
+           <Route path="/login">
+            <Login />
+          </Route>
           <Route path="/checkout">
+           <Haeder />
             <Checkout />
           </Route>
           <Route path="/">
+           <Haeder />
             <Home />
           </Route>
         </Switch>
+           </div>
       </Router>
-    </div>
+ 
   );
 }
 export default App;
