@@ -18,14 +18,14 @@ function Home() {
                   title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses"
                   price={29.99}
                   image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
-                  rating={5}
+                  rating={4}
                 />
                 <Product 
                  id="2"
                   title="Kask Mojito X Unisex Road Helmet, unisex"
                   price={122.94}
                   image="https://m.media-amazon.com/images/I/91tl1wMvoTL._AC_UL320_.jpg"
-                  rating={8}
+                  rating={5}
                 />
             </div>
 

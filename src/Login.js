@@ -57,8 +57,8 @@ function Login() {
               className="login__signInButton">Sign in</button>
 
               <p>
-                By signing-in you agree to MY AMAZON FAKE CLONE Conditions. Please
-                see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
+                By signing-in you agree to my fake AMAZON CLONE Conditions...
+                 This website is created for learning purposes. 
                </p>
 
               <button onClick={register}
