@@ -7,6 +7,7 @@ import Haeder from './Header';
 import Home from './Home';
 import Checkout from './Checkout';
 import Login from './Login';
+import Payment from './Payment';
 import { useStateValue } from "./StateProvider";
 
 
@@ -48,6 +49,12 @@ function App() {
           <Route path="/checkout">
            <Haeder />
             <Checkout />
+          </Route>
+          <Route path="/payment">
+           <Haeder />
+           <Payment />
+         
+            
           </Route>
           <Route path="/">
            <Haeder />
